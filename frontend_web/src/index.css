@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.link:hover {
+  color: #ee430f;
+}
+
+.MuiBadge-badge {
+  background-color: #556f8d !important;
+}
