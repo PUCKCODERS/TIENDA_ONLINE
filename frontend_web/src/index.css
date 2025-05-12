@@ -8,16 +8,31 @@ html {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   overflow-x: hidden;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  background: #e5e5e5;
-  color: rgba(0, 0, 0, 0.7);
+  background: #f1f8ff;
+  color: #274a72;
   overflow: hidden;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
 }
 
 ::-webkit-scrollbar {
@@ -29,7 +44,11 @@ body {
   background: #556f8d;
 }
 ::-webkit-scrollbar-track {
-  background: #fff;
+  background: #b8b8b8;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  background: #556f8d;
 }
 
 .container {
@@ -37,8 +56,50 @@ body {
   margin: auto;
 }
 
+.btn-org {
+  background: #7994b1 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  border: 1px solid #7994b1 !important;
+  box-shadow: 5px 5px 7px #000 !important;
+  transition: all 0.3s ease !important;
+  text-transform: capitalize !important;
+}
+.btn-org:hover {
+  background: #274a72 !important;
+}
+
+.btn-org.btn-border {
+  background: #5c5c5c !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+  border: 1px solid #5c5c5c !important;
+  box-shadow: 5px 5px 7px #000 !important;
+  transition: all 0.3s ease !important;
+  text-transform: capitalize !important;
+}
+.btn-org.btn-border:hover {
+  background: #000 !important;
+}
+
+.btn-lg {
+  font-size: 18px;
+  padding: 10px 20px !important;
+}
+
+.btn-sm {
+  font-size: 12px !important;
+  padding: 5px 20px !important;
+}
+
 .link:hover {
-  color: #ee430f;
+  color: #0a7fec;
 }
 
 .MuiBadge-badge {
@@ -51,6 +112,13 @@ nav ul button {
 
 nav ul button:hover {
   background: none !important;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px !important;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: #556f8d !important;
 }
 
 .sliderHome {
@@ -126,4 +194,203 @@ nav ul button:hover {
 
 .homeCatSlider .item:hover img {
   transform: scale(1.2);
+}
+
+.MuiTabs-indicator {
+  background-color: #b8b8b8 !important;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #556f8d !important;
+}
+
+.productsSlider .swipper-wrapper {
+  padding: 15px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+footer form input::placeholder {
+  font-size: 14px;
+}
+
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.Mui-checkedbox-indeterminate {
+  color: #556f8d !important;
+}
+
+.MuiFormControlLabel-label {
+  font-size: 14px !important;
+  color: #000 !important;
+}
+
+.swipper-pagination-bullet-active {
+  background: #556f8d !important;
+}
+
+.homeSliderV2 .swiper-slide-active .info {
+  right: 0px !important;
+  opacity: 1;
+}
+
+.homeSliderV2 .swiper-slide-active .info h4 {
+  right: 0px !important;
+  opacity: 1;
+}
+.homeSliderV2 .swiper-slide-active .info h3 {
+  right: 0px !important;
+  opacity: 1;
+}
+.homeSliderV2 .swiper-slide-active .info h2 {
+  right: 0px !important;
+  opacity: 1;
+}
+.homeSliderV2 .swiper-slide-active .info .btn_ {
+  bottom: 0px !important;
+  opacity: 1;
+}
+
+.homeSliderV2 .info h4 {
+  transition-duration: 1s;
+}
+.homeSliderV2 .info h2 {
+  transition-duration: 1.5s;
+}
+.homeSliderV2 .info h3 {
+  transition-duration: 2s;
+}
+.homeSliderV2 .info .btn_ {
+  transition-duration: 2.5s;
+}
+
+.MuiCheckbox-root {
+  padding: 6px !important;
+}
+
+.ReactCollapse--collapse {
+  transition: height 400ms;
+}
+
+.itemViewActions button.active svg {
+  color: #000 !important;
+  opacity: 1;
+}
+
+.Mui-selected.MuiPaginationItem-page {
+  background: #274a72 !important;
+  color: #fff !important;
+}
+
+.shadow-md,
+.shadow-lg {
+  box-shadow: 7px 7px 7px #274a72;
+}
+
+.shadow-sm {
+  box-shadow: 0 0 0 2px #274a72;
+}
+.zoomProductSliderThumbs .swiper-wrapper {
+  padding-top: 1px !important;
+}
+.zoomProductSliderThumbs .swiper-button-next {
+  bottom: 0px !important;
+  right: inherit !important;
+  top: inherit !important;
+  width: 100% !important;
+  height: 30px !important;
+  border-radius: 0px !important;
+  background-color: #7994b1;
+}
+
+.zoomProductSliderThumbs .swiper-button-next::after {
+  transform: rotate(90deg);
+}
+.zoomProductSliderThumbs .swiper-button-prev {
+  top: 22px !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 30px !important;
+  border-radius: 0px !important;
+  background-color: #7994b1;
+}
+.zoomProductSliderThumbs .swiper-button-prev::after {
+  transform: rotate(90deg);
+}
+.productContent .actions button {
+  min-width: 40px !important;
+  height: 30px !important;
+  border: 1px solid #274a72 !important;
+  color: #274a72;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.reviewScroll::-webkit-scrollbar {
+  width: 5px !important;
+}
+.reviewScroll::-webkit-scrollbar-thumb {
+  background: #7994b1 !important;
+  border-radius: 10px !important;
+}
+
+.productDetailsModal .MuiDialogContent-root {
+  padding: 0px !important;
+}
+
+.cartPanel .MuiPaper-root {
+  width: 400px !important;
+  overflow: hidden !important;
+}
+
+#size-menu .MuiButtonBase-root {
+  font-size: 12px !important;
+}
+
+.otpBox input {
+  border: 1px solid #274a72 !important;
+  border-radius: 4px !important;
+}
+
+.otpBox input:focus {
+  border: 1px solid #274a72 !important;
+  box-shadow: 0 0 0 2px #274a72 !important;
+}
+
+.otpPage .container {
+  height: 90vh !important;
+  display: flex !important;
+}
+
+#account-menu .MuiPaper-root {
+  width: 200px !important;
+}
+
+.myAccountTabs li a {
+  position: relative;
+  display: block;
+}
+.myAccountTabs li a:before {
+  content: "";
+  width: 3px;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  background-color: #274a72;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.myAccountTabs li a.active::before {
+  height: 100%;
+  opacity: 1;
+  top: 0px;
+}
+
+.myAccountTabs li a.active button svg {
+  opacity: 1 !important;
 }

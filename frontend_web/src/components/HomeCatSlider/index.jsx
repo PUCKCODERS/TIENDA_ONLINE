@@ -14,108 +14,108 @@ const HomeCatSlider = () => {
           spaceBetween={10}
           navigation={true}
           modules={[Navigation]}
-          className="mySwiper"
+          className="sliderHome"
         >
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://polipapel.vteximg.com.br/arquivos/ids/174453-1000-1000/O76237.png?v=638191796905070000"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  CASERA
                 </h3>
               </div>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://sivencasinger.com.ve/wp-content/uploads/sin-titulo-2.png"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  INDUSTRIAL
                 </h3>
               </div>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://singermultimaquinas.com/wp-content/uploads/2024/02/1-300x300.png"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  CORTE
                 </h3>
               </div>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://polipapel.vteximg.com.br/arquivos/ids/174453-1000-1000/O76237.png?v=638191796905070000"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  CASERA
                 </h3>
               </div>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://sivencasinger.com.ve/wp-content/uploads/sin-titulo-2.png"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  INDUSTRIAL
                 </h3>
               </div>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://singermultimaquinas.com/wp-content/uploads/2024/02/1-300x300.png"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  CORTE
                 </h3>
               </div>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://polipapel.vteximg.com.br/arquivos/ids/174453-1000-1000/O76237.png?v=638191796905070000"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  CASERA
                 </h3>
               </div>
             </Link>
           </SwiperSlide>
           <SwiperSlide>
             <Link to="/">
-              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col mb-4">
+              <div className="item py-7 px-3 bg-[#fff] shadow-[5px_4px_7px_#556f8d] rounded-sm text-center flex items-center justify-center flex-col !border-1 !border-[#b1cdee] mb-4">
                 <img
-                  src="https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/06/06/09/21/bx3000.png"
+                  src="https://sivencasinger.com.ve/wp-content/uploads/sin-titulo-2.png"
                   className="w-[60px] transition-all"
                 />
                 <h3 className="text-[15px] font-[600] text-[#556f8d] mt-3">
-                  MAQUINA
+                  INDUSTRIAL
                 </h3>
               </div>
             </Link>

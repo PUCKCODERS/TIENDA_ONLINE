@@ -9,7 +9,8 @@ const HomeSlider = () => {
     <div className="homeSlider py-4">
       <div className="container">
         <Swiper
-          spaceBetween={20}
+          loop={true}
+          spaceBetween={15}
           navigation={true}
           modules={[Navigation, Autoplay]}
           autoplay={{
@@ -21,52 +22,34 @@ const HomeSlider = () => {
           <SwiperSlide>
             <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d] ">
               <img
-                src="/src/images/slider/slider1.png"
+                src="https://valminortv.com/wp-content/uploads/2024/09/2024-09-26-maquina-coser-portada.jpg"
                 alt="Banner slide"
                 className="w-full left-0 top-0 h-[400px]"
               />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d] ">
               <img
-                src="/src/images/logo.jpg"
+                src="https://media.licdn.com/dms/image/v2/C4E1BAQFyV5_AZdsxNg/company-background_10000/company-background_10000/0/1650380947166/maquitex_industrial_cover?e=2147483647&v=beta&t=WakLijhn-vgfuYsfGNIc_A_yCPEr7OrufZI-1aineyQ"
                 alt="Banner slide"
                 className="w-full left-0 top-0 h-[400px]"
               />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d] ">
               <img
-                src="/src/images/slider/slider1.png"
+                src="https://valminortv.com/wp-content/uploads/2024/09/2024-09-26-maquina-coser-portada.jpg"
                 alt="Banner slide"
                 className="w-full left-0 top-0 h-[400px]"
               />
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
+            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d] ">
               <img
-                src="/src/images/logo.jpg"
-                alt="Banner slide"
-                className="w-full left-0 top-0 h-[400px]"
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
-              <img
-                src="/src/images/slider/slider1.png"
-                alt="Banner slide"
-                className="w-full left-0 top-0 h-[400px] "
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="item rounded-[25px] overflow-hidden shadow-[9px_8px_6px_#556f8d]">
-              <img
-                src="/src/images/logo.jpg"
+                src="https://media.licdn.com/dms/image/v2/C4E1BAQFyV5_AZdsxNg/company-background_10000/company-background_10000/0/1650380947166/maquitex_industrial_cover?e=2147483647&v=beta&t=WakLijhn-vgfuYsfGNIc_A_yCPEr7OrufZI-1aineyQ"
                 alt="Banner slide"
                 className="w-full left-0 top-0 h-[400px]"
               />
